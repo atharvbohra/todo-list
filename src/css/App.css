@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #666;
+  font-family:arial,sans-serif;
+}
+
+.listContainer {
+  float: left;
+  width: 25vw;
+  min-width: 22vw;
+  margin: 1rem;
+  border-radius: 4px;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+.listContainer:nth-child(even) {
+  transform: rotate(-3deg);
+  background: #ffc;
+}
+.listContainer:nth-child(odd) {
+  background: #ccf;
+  transform: rotate(3deg);
+}
+.listText {
+  margin: 0.3rem 0.3rem;
+}
+.heading {
+  color: white;
+  font-size: 1rem;
+  background-color: lightseagreen;
+  border-radius: 2px;
+  padding:3px;
+}
+.description{
+  width: 20vw;
+  font-size: 0.7rem;
+  padding: 5px 0px;
+}
+.form {
+  position: relative;
+  width: 30vw;
+  height: 30vh;
+  left: 35vw;
+  top: 25vh;
+}
