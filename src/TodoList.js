@@ -32,7 +32,7 @@ const TodoItems = (props) => {
         >
             {content}
             <input id={props.listIdx} 
-                style={{display:'table',margin:'0.7rem auto',background:'green',padding:'4px',color:'white'}}
+                style={{display:'table',margin:'1.3rem auto 0.4rem',background:'green',padding:'4px',color:'white'}}
                 type='button' value='+' onClick={(event)=>props.handleAddItemClick(event)} />
         </div>
     )

@@ -30,13 +30,13 @@ class Form extends React.Component {
     render() {
         return (
             <div className='form'>
-                <label style={{display: 'block'}}>Heading</label>
+                <label style={{display: 'block', fontWeight:'bold'}}>Heading</label>
                 <input style={{ marginBottom: '0.3rem' }} type='text' name='heading'
                     value={this.state.heading} onChange={(event) => this.handleChange(event)} />
-                <label style={{display: 'block'}}>Description</label>
+                <label style={{display: 'block',fontWeight:'bold'}}>Description</label>
                 <input type='text' name='description'
                     value={this.state.description} onChange={(event) => this.handleChange(event)} />
-                <input style={{ margin: '0.6rem 3.5rem', display: 'block' }} type='button'
+                <input style={{ margin: '0.6rem 3.5rem', display: 'block', padding:'4px', background: 'blue', color:'#fff'}} type='button'
                     value='Submit' onClick={() => this.handleSubmit()} />
             </div>
         )
