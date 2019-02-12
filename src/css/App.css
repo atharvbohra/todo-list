@@ -30,6 +30,7 @@ body {
 }
 .listText {
   margin: 0.3rem 0.3rem;
+  word-break: break-all;
 }
 .heading {
   color: white;
